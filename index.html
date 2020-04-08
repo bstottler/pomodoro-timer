@@ -2,14 +2,52 @@
 <html>
     <head>
         <meta charset='UTF-8'>
-        <title>Pomodoro Productivity Timer</title>
+        <title>Pomodoro Work Timer</title>
         <link rel='stylesheet' type='text/css' href='styles.css'>
     </head>
     <body>
-        <!--Create Work Timer Face, Create Break Timer Face as one div. Create Start, Pause, Stop, and Reset button as one div. 
-            Create 'about pomodoro method' section 
-            Create link to my github, linkedin
-            -->
+        <div id='timerBody'>
+            <h2>Work Time:</h2>
+            <div id='work'>
+                <button class='buttons' id='moreWork'>+</button>
+                <div id='workTime'></div>
+                <button class='buttons' id='lessWork'>-</button>
+            </div>
+            <h2>Break Time:</h1>
+            <div id='break'>
+                <button class='buttons' id='moreBreak'>+</button>
+                <div id='breakTime'></div>
+                <button class='buttons' id='lessBreak'>-</button>
+            </div>
+            <div id='buttons'>
+                <button class='fbuttons' id='play'><img src='icons/icons8-play-50.png' alt='play'></button>
+                <button class='fbuttons' id='pause'><img src='icons/icons8-pause-50.png' alt='pause'></button>
+                <button class='fbuttons' id='stop'><img src='icons/icons8-stop-50.png' alt='stop'></button>
+                <button class='fbuttons' id='reset'><img src='icons/icons8-reset-50.png' alt='reset'></button>
+            </div>
+        </div>
+        <div id='about'>
+            <h2>About the Pomodoro Technique</h2>
+            <p>The Pomodoro Technique (or Method) is a workflow technique credited to Franesco Cirillo in the late 1980s. 
+                The technique is named after traditional kitchen timers that are often designed to look like a pomodoro tomato. <br><br>
+                There are six steps in the original technique: <br>
+                <ul>
+                    <li>Decide on the task to be done.</li>
+                    <li>Set the pomodoro timer (traditionally to 25 minutes).</li>
+                    <li>Work on the task.</li>
+                    <li>End work when the timer rings and put a checkmark on a piece of paper.</li>
+                    <li>If you have fewer than four checkmarks, take a short break (3–5 minutes), then go to step 2.</li>
+                    <li>After four pomodoros, take a longer break (15–30 minutes), reset your checkmark count to zero, then go to step 1.</li>
+                    <li>For the purposes of the technique, a 'pomodoro' is the interval of time spent working.</li>
+                </ul></p>
+        </div>
+        <audio id='ding'>
+            <source src='sounds/single-ding-sound-effect.mp3'>
+        </audio>
+        <footer>
+            <div id='author'>Created by Brandon Stottler <a href='https://github.com/bstottler'><img src='icons/GitHub-Mark-64px.png' alt='GitHub'></a></div>
+            <div id='credit'>icon images courtesy of <a href='https://icons8.com/'>icon8.com</a></div>
+        </footer>
     </body>
     <script src='pomodoro.js'></script>
 </html>

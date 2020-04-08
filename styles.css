@@ -1,10 +1,86 @@
-/*style for timer div*/
+body {
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
-/*style for buttons*/
+}
+
+p {
+    text-indent: 20px;
+    color: rgb(151, 121, 91)34;
+}
+
+#timerBody {
+    margin: auto;
+    margin-top: 50px;
+    height: 420px;
+    width: 600px;
+    border: 8px solid #505050;
+    background-color: #a8978a;
+    border-radius: 10px;
+    position: absolute;
+    left: 200px;
+    float: left;
+}
+
+#about {
+    margin: auto;
+    margin-top: 50px;
+    height: 380px;
+    width: 600px;
+    border: 8px solid #505050;
+    background-color: #a8978a;
+    border-radius: 10px;
+    position: absolute;
+    right: 200px;
+    float: left;
+    padding: 20px;
+}
 
 /*style for background*/
+#work, #break, #buttons{
+    display:flex;
+    justify-content: center;
+    margin: 20px
+}
 
-/*style for timer faces*/
+#moreWork, #workTime, #lessWork, #moreBreak, #breakTime, #lessBreak {
+    float: left;
+}
 
-/*style for personal links*/
+#workTime, #breakTime {
+    margin: 10px;
+    font-size: 40px;
+}
 
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.fbuttons {
+    border-radius: 15px;
+    background-color: #bbb497;
+    margin: 20px 20px;
+    padding: 20px;
+
+}
+
+.buttons {
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #bbb497;
+    padding: 20px;
+
+}
