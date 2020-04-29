@@ -1,46 +1,24 @@
 body {
-    background-color: beige;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-p {
-    text-indent: 20px;
-    color: rgb(151, 121, 91)34;
+    background-color: rgb(184, 184, 184);
+    font-family: 'Garamond';
 }
 
 #timerBody {
-    margin: auto;
-    margin-top: 50px;
-    height: 420px;
+    margin: 50px 50px;
+    height: 440px;
     width: 600px;
-    border: 8px solid #505050;
-    background-color: #a8978a;
+    border: 8px solid #9e0303;;
+    background-color: #99594e4b;
     border-radius: 10px;
-    position: absolute;
+    position: flex;
     left: 200px;
     float: left;
 }
 
-#about {
-    margin: auto;
-    margin-top: 50px;
-    height: 380px;
-    width: 600px;
-    border: 8px solid #505050;
-    background-color: #a8978a;
-    border-radius: 10px;
-    position: absolute;
-    right: 200px;
-    float: left;
-    padding: 20px;
-}
-
-/*style for background*/
 #work, #break, #buttons{
     display:flex;
     justify-content: center;
-    margin: 20px
+    margin: 10px
 }
 
 #moreWork, #workTime, #lessWork, #moreBreak, #breakTime, #lessBreak {
@@ -49,7 +27,7 @@ p {
 
 #workTime, #breakTime {
     margin: 10px;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 h2 {
@@ -57,12 +35,29 @@ h2 {
     justify-content: center;
 }
 
-footer {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
+#about {
+    margin: 50px 0px;
+    height: 400px;
+    width: 600px;
+    border: 8px solid #9e0303;
+    background-color: #99594e4b;
+    border-radius: 10px;
+    float: left;
+    padding: 20px;
+    position: flex;
 }
 
+p {
+    text-indent: 20px;
+    color: rgb(151, 121, 91)34;
+}
+
+footer {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: -1;
+}
 
 img {
     height: 30px;
@@ -71,16 +66,36 @@ img {
 
 .fbuttons {
     border-radius: 15px;
-    background-color: #bbb497;
-    margin: 20px 20px;
+    background-color: #4da058;;
+    margin: 10px 20px;
     padding: 20px;
-
+    border: 2px solid #9e0303;
+    font-size: 40px;
 }
 
 .buttons {
+    position: relative;
+    top: 23px;
     border-radius: 10px;
-    font-size: 30px;
-    background-color: #bbb497;
-    padding: 20px;
+    font-size: 25px;
+    background-color: #4da058;;
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+    border: 2px solid #9e0303;;
+}
 
+.marks {
+    float: left;
+}
+
+#checkmarks {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    z-index: 1;
+}
+
+li {
+    margin: 6px 0px;
 }

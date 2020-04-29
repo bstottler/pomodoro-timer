@@ -8,3 +8,7 @@ The main goal of this project is to develop a comfortable workflow in front-end 
 ## methods
 In order to practice the spirit of pair programming, without a partner, I am dictating my workflow outloud (to my cat), and taking a break every time my workflow stalls.
 
+## lessons learned
+It was difficult to remember to dictate to myself as I coded and problem solved. However, I found that when I explained the logic of coding to myself and processed in a different way, I was much more capable of recognizing flaws in my logic and solving the problems.
+
+Ironically, the times I struggled the most with the project was when I wasn't following the pomodoro technique myself.
